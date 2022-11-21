@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: 'AIzaSyDOSUwxmPSGDb8k4vJhlTwHAcA2SRO0LpM',
+    authDomain: 'spoty-app-demo-31108.firebaseapp.com',
+    projectId: 'spoty-app-demo-31108',
+    storageBucket: 'spoty-app-demo-31108.appspot.com',
+    messagingSenderId: '790348274098',
+    appId: '1:790348274098:web:892f2501d4d1269d6dacab',
+    measurementId: 'G-0SZTG59198'
+  }
 };
 
 /*
